@@ -1,25 +1,34 @@
-## Happy Birthday!!!
+Happy Birthday
 
-### Wish someone special happy birthday in a special way.
+A Happy Birthday animation design in CSS3, HTML5.
 
-#### [See it Live](https://faahim.github.io/happy-birthday/)
+URL: http://ayusharma.github.io/birthday/
 
-It was a birthday of one of my friend and I wanted to wish her in a special way. So I put together this animated web page real quick to say Happy Birthday.
+Technology Used: HTML5 CSS3 jQuery  GNU/Linux Digital Ocean as VPS GIMP
 
-Feel free to use it to wish your friend if you want.
-You can get it running in a few easy steps:
+# Setup
 
-* Fork the repository
-* Open `customize.json` and replace name/wish-message/image with your own
-* Turn on GitHub pages for the repository (Settings > GitHub Pages)
-* Send the URL that you get at the above step to your friend
+## If you have python installed:
+```
+cd Birthday
+```
 
-I've created the JSON file for easy and quick customizability. If you want to do more customizing, simply edit the HTML file. But in that case, leave the JSON fields empty since it overwrites the HTML. Please note that I've created this page in a hurry and it comes with no warranty, so check yourself before sending it to your friend.
+&& 
 
-I've used plain HTML, CSS and JavaScript with [GSAP](https://greensock.com/gsap) for animations.
+```
+python -m SimpleHTTPServer --port  8081
+```
 
-## Contributing
+visit http://localhost:8081 in your browser.
 
-If you have any idea to make it more interesting, feel free to send a PR, or create an issue for a feature request.
+## If you have nodejs installed
+```
+npm install
+```
+&&
 
-Stay happy and keep the people you care about happy. :)
+```
+npm run server-node
+```
+visit http://localhost:8081 in your browser.
+
